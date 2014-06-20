@@ -1,0 +1,25 @@
+{
+    "name": "jamesjnz/nzgpos",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.8",
+        "doctrine/common": "~2.3",
+        "geraintluff/jsv4": "dev-master",
+        "jdesrosiers/json-object-php": "dev-master",
+        "jdesrosiers/silex-conneg-provider": "~0.1",
+        "jdesrosiers/silex-cors-provider": "~0.1",
+        "monolog/monolog": "~1.0",
+        "silex/silex": "~1.1",
+        "symfony/monolog-bridge": "~2.3"
+    },
+    "require-dev": {
+        "symfony/browser-kit": "~2.3",
+        "phpunit/phpunit": "~3.7"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:/jamesjnz/nzgpos"
+        }
+    ]
+}
